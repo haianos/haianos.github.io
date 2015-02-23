@@ -1,35 +1,32 @@
 ---
 layout: post-index
-title: Research
+title: Research Index
 #image:
 #  feature: abstract-5.jpg
 comments: false
 ---
 
-Research page
-{% for post in site.research %}
+# Main Publications
 
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+## Conferences
 
-{% if forloop.first %}
-<article>
-<h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-<ul>
-{% endif %}
+| Conference | Title |
+|:--------|:---------:|
+| <font color="#BC281E">ICRA 2015</font>   | [Bridging the gap between Discrete Symbolic Planning and Optimization-based Robot Control](/research/publications/icra2015.html)   |
+|---
+| <font color="#BC281E">IROS 2014</font>   | [A Framework for Formal Specification of Robotic Constraint-based Tasks and their Concurrent Execution with Online QoS Monitoring](/research/publications/iros2014.html)    |
+|===
+| <font color="#BC281E">IROS 2013</font>   | [Preview Coordination, an Enhanced Execution Model for Online Scheduling of Mobile Manipulation Tasks](/research/publications/iros2013.html)    
+{: rules="groups"}
 
-<li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+# Other Publications
 
-{% if forloop.last %}
-</ul>
-</article>
-{% else %}
-{% if this_year != next_year %}
-</ul>
-</article>
-<article>
-<h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
-<ul>
-{% endif %}
-{% endif %}
-{% endfor %}
+## Conferences
+
+| Conference | Title |
+|:--------|:---------:|
+|---
+| <font color="#BC281E">IROS 2011</font> | Haptic coupling with augmented feedback between two KUKA Light-Weight Robots and the PR2 robot arms |
+|---
+| <font color="#BC281E">SYROCO 2012</font> | Online Trajectory Generation and Tracking Control Design for Mobile Robots with Kinodynamic Constraints |
+{: rules="groups"}

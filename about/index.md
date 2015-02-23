@@ -21,7 +21,7 @@ and Automation Control Engineer from University of Ferrara in 2007 and 2010,
 respectively.
 
 ### My ORCID
-[0000-0001-5406-5975](orcid.org/0000-0001-5406-5975)
+[0000-0001-5406-5975](http://orcid.org/0000-0001-5406-5975)
 
 # Interests
 Enea's current research interests are on formal specification and
