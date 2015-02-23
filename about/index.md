@@ -20,6 +20,9 @@ Enea received his B.Sc. and M.Sc degrees in Computer Science
 and Automation Control Engineer from University of Ferrara in 2007 and 2010,
 respectively.
 
+### My ORCID
+[0000-0001-5406-5975](orcid.org/0000-0001-5406-5975)
+
 # Interests
 Enea's current research interests are on formal specification and
 scheduling of constraint-based tasks, optimization-based robot control
