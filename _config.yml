@@ -11,19 +11,19 @@ url:  http://haianos.com
 owner:
   name:           Enea Scioni
   avatar:         avatar.jpg
-  bio:            "PhD Student at KU Leuven and University of Ferrara. Roboticist, Researcher and Software Expert"
+  bio:            "PhD Student at KU Leuven and University of Ferrara. Roboticist, Researcher and Expert Programmer"
   email:          enea.scioni@unife.it
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         haianos
   stackexchange:  
-  linkedin:       
+  linkedin:      eneascioni 
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    #+yourid
 
 # Background image to be tiled on all pages
 background: 
