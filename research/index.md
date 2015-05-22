@@ -30,3 +30,4 @@ comments: false
 |---
 | <font color="#BC281E">SYROCO 2012</font> | Online Trajectory Generation and Tracking Control Design for Mobile Robots with Kinodynamic Constraints |
 {: rules="groups"}
+
