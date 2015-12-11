@@ -19,6 +19,13 @@ comments: false
 | <font color="#BC281E">IROS 2013</font>   | [Preview Coordination, an Enhanced Execution Model for Online Scheduling of Mobile Manipulation Tasks](/research/publications/iros2013.html)    
 {: rules="groups"}
 
+## Journal
+
+| Journal | Title |
+|:------|:------------:|
+| <font color="#BC281E">RA-Letters</font>   | [Introducing Geometric Constraint Expressions into Robot Constrained Motion Specification and Control](/research/publications/rasl2015.html)   |
+|---
+
 # Other Publications
 
 ## Conferences
