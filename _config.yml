@@ -11,8 +11,8 @@ url:  http://haianos.com
 owner:
   name:           Enea Scioni
   avatar:         avatar.jpg
-  bio:            "PhD Student at KU Leuven and University of Ferrara. Roboticist, Researcher and Expert Programmer"
-  email:          enea.scioni@unife.it
+  bio:            "Ph.D, Postdoc Researcher at KU Leuven (Belgium). Roboticist, Researcher and Expert Programmer."
+  email:          enea.scioni@kuleuven.be
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
@@ -41,6 +41,7 @@ highlighter: pygments
 markdown:    kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 sass:
   sass_dir: _sass
   style: compressed
@@ -56,14 +57,16 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  #enable_coderay: true
+  #syntax_highlighter: 
+#  syntax_highlighter: coderay
+  
+  syntax_highlighter_opts:
+    line_numbers: nil
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
