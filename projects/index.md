@@ -44,8 +44,8 @@ For further information, please refer to the links provided for each project.
 
 ### Projects Type
 
-  * `EU H-2020`: Project funded by the European Commision, under the Horizon 2020 research program
-  * `EU FP7`:  Project funded by the European Commission, under the Framework Program 7
-  * `FM-SBO`: Project funded by Flanders Make, Strategic Basic Research
-  * `FM-ICON`: Projecet funded by Flanders Make, Innovation and technology transfer
-  * `challenge`: short project application-oriented based on a concrete proposal
+  * __EU H-2020__: Project funded by the European Commision, under the Horizon 2020 research program
+  * __EU FP7__:  Project funded by the European Commission, under the Framework Program 7
+  * __FM-SBO__: Project funded by Flanders Make, Strategic Basic Research
+  * __FM-ICON__: Projecet funded by Flanders Make, Innovation and technology transfer
+  * __challenge__: short project application-oriented based on a concrete proposal
